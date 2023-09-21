@@ -1,0 +1,125 @@
+@media screen and (max-width: 1000px) {
+    .section-title {
+        margin-bottom: 30px
+    }
+    .banner-cont-right {
+        display: none;
+    }
+    .btn, .header-number {
+        font-size: 20px;
+    }
+    .guide-cont-text {
+        width: 45%;
+    }
+    .guide-cont-img {
+        width: 45%;
+    }
+    .guide-cont-text .btn {
+        width: 100%;
+    }
+    .advantages-links .btn, .guide-cont-text .btn{
+        padding: 15px 20px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .minimize {
+        overflow-y: hidden;
+    }
+    .navigation .d-flex, header {
+        position: relative;
+        display: none;
+    }
+    .minimize .navigation .d-flex, .minimize header {
+        display: flex;
+    }
+    .nav-bar {
+        display: block;
+    }
+    .minimize .d-flex{
+        flex-direction: column;
+    }
+    .minimize .navigation {
+        height: auto;
+        box-shadow: none;
+    }
+    .minimize .nav-link {
+        line-height: 30px;
+    }
+    .minimize header {
+        width: 100%;
+        height: max-content;
+    }
+    .minimize .nav-google {
+        display: block;
+    }
+    .minimize nav {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--secondary);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .header-number{
+        display: none;
+    }
+    .header-cont {
+        width: 100%;
+    }
+    .header-links svg path{
+        fill: white;
+    }
+    .minimize .header-links.d-flex{
+        flex-direction: row;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .header-company {
+        display: block;
+        width: 100%;
+        border: none;
+        color: var(--secondary)
+    }
+    .btn {
+        padding: 20px 60px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .d-flex {
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+        margin: 10px auto !important;
+    }
+    .btn.primary{
+        margin: 20px 0 !important;
+    }
+    .footer-left {
+        display: none;
+    }
+    .guide-cont-img {
+        display: none;
+    }
+    .team-member-card{
+        width: 100%;
+        margin: 30px auto;
+    }
+    .team-member-card img {
+        width: 40%;
+    }
+    .banner-cont-left {
+        width: 100%;
+    }
+    .banner-google-img {
+        width: 50%;
+    }
+    .banner-cont-left .btn {
+        max-width: 380px;
+        width: 100%
+    }
+
+}

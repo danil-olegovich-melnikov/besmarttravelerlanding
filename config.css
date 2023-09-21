@@ -1,0 +1,28 @@
+:root {
+    --primary: #4CB050;
+    --secondary: #7CBBC2;
+    --black: #000000;
+    --white: #ffffff;
+    --light: #EFEFEF;
+    --dark: #606060,
+}
+
+#banner {
+    background: linear-gradient(#F3E1B1, #FFC480);
+}
+
+#company{
+    background: linear-gradient(#FFC480, #FF9675);
+}
+
+#team{
+    background: linear-gradient(#FF9675, #FFCEBF);
+}
+
+#features{
+    background: linear-gradient(#FFCEBF, #DAEEBD);
+}
+
+#advantages{
+    background: linear-gradient(#DAEEBD, #4CB050);
+}
