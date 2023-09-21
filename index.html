@@ -88,6 +88,7 @@
                 </div>
             </div>
         </section>
+        <button id="scrollTopButton" class="scroll-top-button">Наверх</button>
         <section class="about" id="company">
             <div class="container py-100 about-cont">
                 <h3>Коротко о нас</h3>
@@ -212,6 +213,23 @@
 
     document.querySelectorAll('.disabled').forEach(function(link) {
       link.addEventListener('click', handleAlertClick)
+    });
+
+    const scrollTopButton = document.getElementById("scrollTopButton");
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+            scrollTopButton.style.display = "block";
+        } else {
+            scrollTopButton.style.display = "none";
+        }
+    });
+
+    scrollTopButton.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     });
     </script>
 
